@@ -55,8 +55,32 @@ print(student.items()) # dict_items([('name', 'Alice'), ('age', 21), ('major', [
 print(len(student)) # 4 # number of key-value pairs in the dictionary
 
 for key,value in student.items():
-    print(f"{key}: {value}") # name: Alice, age: 21, major: ['Computer Science', 'Mathematics'], grade: A       
+    print(f"{key}: {value}") # name: Alice, age: 21, major: ['Computer Science', 'Mathematics'], grade: A   
 
 
+
+#Sets
+# A set is an unordered collection of unique elements. Sets are mutable, meaning you can change their contents after creation.
+# Sets are defined using curly braces {} or the set() constructor.
+# You can add, remove, and modify elements in a set.
+# Sets do not support indexing, slicing, or other sequence-like behavior.
+# You can perform mathematical operations like union, intersection, and difference on sets.
+# Sets are useful for removing duplicates from a list or checking membership.
+# Sets are unordered, meaning the order of the elements is not guaranteed.
+   
+
+unique_colors = {"red", "green", "blue", "yellow", "purple"}
+print(unique_colors) # {'red', 'green', 'blue', 'yellow', 'purple'}
+
+
+#Tuples
+# A tuple is an immutable sequence of elements. Tuples are defined using parentheses () or the tuple() constructor.
+# Tuples are ordered, meaning the elements have a specific order.
+# Tuples are immutable, meaning you cannot change their contents after creation.
+# Tuples are defined using parentheses () or the tuple() constructor.
+# You can access the elements in a tuple using indexing.
+
+coordinates = (10, 20, 30)
+print(coordinates) # (10, 20, 30)
 
 

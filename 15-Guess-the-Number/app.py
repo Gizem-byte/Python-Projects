@@ -43,4 +43,4 @@ while playing:
     else:
         print("Goodbye! 👋")
         playing = False
-        brea
+     

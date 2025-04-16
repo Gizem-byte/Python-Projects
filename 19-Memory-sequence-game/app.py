@@ -53,8 +53,7 @@ while not game_over:
         time.sleep(2)
     else:
         print(f"😭 Game over! You remembred all {current_round - 1} numbers!")
-        print(
-            f"The correct sequence was: {" ".join(str(num) for num in sequence)}")
+        print( f"The correct sequence was: {" ".join(str(num) for num in sequence)}")
         game_over = True
 
     if game_over:
